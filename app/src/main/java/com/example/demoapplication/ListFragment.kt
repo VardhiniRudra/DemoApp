@@ -36,11 +36,6 @@ class ListFragment : Fragment() {
     }
 
     private fun getMyData() {
-        /*val retrofitBuilder = Retrofit.Builder()
-            .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl(BASE_URL)
-            .build()
-            .create(ApiInterface::class.java)*/
 
         val apiService = RetrofitInstance.api
         val call =apiService.getData()
@@ -75,29 +70,6 @@ class ListFragment : Fragment() {
         })
 
 
-        /*
-                retrofitData.enqueue(object : Callback<List<MyDataItem>?>{
-                    override fun onResponse(
-                        call: Call<List<MyDataItem>?>,
-                        response: Response<List<MyDataItem>?>
-                    ) {
-                        val responseBody = response.body()
-
-                        val recyclerView = view?.findViewById<RecyclerView>(R.id.recyclerview_users)
-                        recyclerView?.setHasFixedSize(true)
-                        recyclerView?.layoutManager = linearLayoutManager
-                        myAdapter = MyAdapter(context!!, responseBody!!)
-                        myAdapter.notifyDataSetChanged()
-                        recyclerView?.adapter = myAdapter
-
-
-                    }
-
-                    override fun onFailure(call: Call<List<MyDataItem>?>, t: Throwable) {
-                        TODO("Not yet implemented")
-                    }
-
-                })*/
     }
 
 
