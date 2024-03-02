@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyProfileApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="educationsummary">Education : Masters in Electronics and Communication Engineering from Bangalore University in the year 2021 with CGPA 9.2.
+        \n•	Bachelors in Electronics and Communication Engineering from Visveswaraya Technological University in the year 2018 with 76.02%.
+        \n\nWork Experience : 2+ years of experience as an Android developer in PineLabs company, which is Fintech company from September 2021 to September 2023.
+        \n•	Have good working experience with Android SDK, Android components, Kotlin, Java, XML and REST API.
+        \n•	Good experience in Offline storage in SQLITE, Room DB.
+        \n•	Good knowledge of Android UI, Google Firebase Push Notifications and Clevertap.
+        \n•	Good experience in versioning tools like GIT and GITHUB.
+        \n•	Implemented QR code (UI and transaction flow) for static and dynamic UPI payments with MQTT notification.
+        \n•	Implemented crashlytics and clevertap in multiple applications.
+        \n•	Developed Single Sign On for multiple applications on POS with Graph QL API.</string>
+
+</resources>
